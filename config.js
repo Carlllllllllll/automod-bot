@@ -4,7 +4,7 @@ module.exports = {
   SUPPORT_SERVER: "", // Your bot support server
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
-    STATUS: "online", // The bot's status [online, idle, dnd, invisible]
+    STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
     MESSAGE: "{members} members in {servers} servers", // Your bot status message
   },
@@ -16,9 +16,9 @@ module.exports = {
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
-    CONTEXT: false, // Should contexts be enabled
+    CONTEXT: true, // Should contexts be enabled
     GLOBAL: true, // Should the interactions be registered globally
-    TEST_GUILD_ID: "xxxxxxxxxx", // Guild ID where the interactions should be registered. [** Test you commands here first **] //NOT REQUIRED
+    TEST_GUILD_ID: "1223309777740894318", // Guild ID where the interactions should be registered. [** Test you commands here first **] //NOT REQUIRED
   },
   XP_SYSTEM: {
     COOLDOWN: 5, // Cooldown in seconds between messages
